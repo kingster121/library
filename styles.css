@@ -1,0 +1,30 @@
+*{
+    font-size: 25px;
+}
+
+button{
+    font-size:20px;
+    margin: 5px;
+}
+
+input[type="checkbox"]{
+    transform:scale(2);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#form-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 4px;
+}
+
+#display-library{
+    font: 30px;
+    background-color: aqua;
+    margin:auto;
+}
